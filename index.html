@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Vihan Mishra</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkullReactor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="overlay" onclick="startSite()">
-  <h1>Click to Enter</h1>
-</div>
+    <div class="overlay" id="overlay" onclick="startSite()">
+        <h1>INITIALIZE REACTOR</h1>
+    </div>
 
-<div class="container hidden">
-  <h2 class="name">Vihan</h2>
-  <p class="tag">Developer • Gamer • Creator</p>
-  <p class="tag">Sup There, I am Vihan. I am addicted to coding, reading and playing Games</p>
+    <div class="container hidden" id="mainContainer">
+        <h1 class="name">SkullReactor</h1>
+        <p class="tag">Developer • Gamer • Creator</p>
+        <p class="tag">Systems online. I'm SkullReactor—addicted to coding, reading, and high-stakes gaming.</p>
 
-  <div class="links">
-    <a href="https://discord.com/users/bloxdhunter">Discord Profile</a>
-    <a href="https://www.instagram.com/v1han_mishra/">Instagram</a>
-    <a href="https://github.com/Mr-Vihan">Git Hub</a>
-  </div>
-</div>
+        <div class="links">
+            <a href="https://discord.gg/xRwtTbrDpb" target="_blank">Discord</a>
+            <a href="https://www.instagram.com/v1han_mishra/" target="_blank">Instagram</a>
+            <a href="https://github.com/Mr-Vihan" target="_blank">GitHub</a>
+        </div>
 
-<div id="easterEgg" class="easter hidden">
-  🥚 You found the Easter Egg 🥚<br>
-  <span>Now you are gay</span>
-</div>
+        <div id="easterEgg" class="easter hidden">
+            💀 SYSTEM BREACHED: REACTOR OVERLOAD 💀
+        </div>
+    </div>
 
+    <audio id="bgMusic" loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
 
-<audio id="bgMusic" loop>
-  <source src="music.mp3" type="audio/mpeg">
-</audio>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
